@@ -13,11 +13,11 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-8.0.0_r32" />
   
-  <remote  name="jb"
+  <remote  name="clean"
            fetch=".."
            sync-c="true"
            sync-j="16"
-           revision="refs/heads/master" />
+           revision="refs/heads/8.0" />
   
   <remote  name="crdroid"
            fetch=".."
