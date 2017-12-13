@@ -537,6 +537,6 @@
 <project path="kernel/moto/shamu" name="camcory/android_kernel_moto_shamu" remote="gh" revision="O" />
   <project path="packages/apps/Launcher3" name="camcory/platform_packages_apps_Launcher3" remote="gh" revision="Ox" />
   <project path="packages/inputmethods/LatinIME" name="camcory/android_packages_inputmethods_LatinIME" remote="gh" revision="Ox" />
-  <project path="vendor/caosp" name="CleanAosp-O/android_vendor_caosp" remote="gh" revision="8.1" />
+  <project path="vendor/caosp" name="CleanAosp-O/platform_vendor_caosp" remote="gh" revision="8.1" />
   <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="gh" revision="O" />
 </manifest>
