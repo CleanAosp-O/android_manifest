@@ -7,6 +7,8 @@
            sync-j="12" />
   <remote  name="gh"
            fetch="https://github.com/" />
+  <remote  name="bb"
+           fetch="https://bitbucket.org" />
 
   <project path="build/make" name="CleanAosp-O/platform_build" remote="gh" revision="8.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -453,7 +455,7 @@
   <project path="prebuilts/deqp" name="platform/prebuilts/deqp" groups="pdk-fs" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" />
+  <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" /-->
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" clone-depth="1" />
@@ -529,14 +531,16 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 <!-- Repos -->
-<project path="device/moto/shamu" name="CleanAosp-O/android_device_moto_shamu" remote="gh" revision="8.1" />
-<project path="frameworks/base" name="CleanAosp-O/platform_frameworks_base" remote="gh" revision="8.1" />
+  <project path="device/moto/shamu" name="CleanAosp-O/android_device_moto_shamu" remote="gh" revision="8.1" />
+  <project path="frameworks/base" name="CleanAosp-O/platform_frameworks_base" remote="gh" revision="8.1" />
   <project path="hardware/interfaces" name="camcory/platform_hardware_interfaces" remote="gh" revision="Ox" />
   <project path="hardware/qcom/msm8x84" name="camcory/platform_hardware_qcom_msm8x84" remote="gh" revision="Ox" />
   <project path="hardware/ril" name="camcory/platform_hardware_ril" remote="gh" revision="Ox" />
-<project path="kernel/moto/shamu" name="camcory/android_kernel_moto_shamu" remote="gh" revision="O" />
+  <project path="kernel/moto/shamu" name="camcory/android_kernel_moto_shamu" remote="gh" revision="O" />
   <project path="packages/apps/Launcher3" name="camcory/platform_packages_apps_Launcher3" remote="gh" revision="Ox" />
   <project path="packages/inputmethods/LatinIME" name="camcory/android_packages_inputmethods_LatinIME" remote="gh" revision="Ox" />
   <project path="vendor/caosp" name="CleanAosp-O/platform_vendor_caosp" remote="gh" revision="8.1" />
   <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="gh" revision="O" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.9" clone-depth="1" remote="bb" revision="master"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" clone-depth="1" remote="bb" revision="master"/>
 </manifest>
