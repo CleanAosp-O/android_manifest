@@ -541,6 +541,6 @@
   <project path="packages/inputmethods/LatinIME" name="camcory/android_packages_inputmethods_LatinIME" remote="gh" revision="Ox" />
   <project path="vendor/caosp" name="CleanAosp-O/platform_vendor_caosp" remote="gh" revision="8.1" />
   <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="gh" revision="O" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.9" clone-depth="1" remote="bb" revision="master"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" clone-depth="1" remote="bb" revision="master"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" clone-depth="1" remote="bb" revision="master"/>
 </manifest>
