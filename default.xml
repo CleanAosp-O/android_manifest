@@ -524,7 +524,7 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
-<!-- Repos -->
+<!-- Shamu Repos -->
   <project path="device/moto/shamu" name="CleanAosp-O/android_device_moto_shamu" remote="gh" revision="8.1" />
   <project path="frameworks/base" name="CleanAosp-O/platform_frameworks_base" remote="gh" revision="8.1" />
   <project path="hardware/interfaces" name="camcory/platform_hardware_interfaces" remote="gh" revision="Ox" />
@@ -532,7 +532,6 @@
   <project path="hardware/ril" name="camcory/platform_hardware_ril" remote="gh" revision="Ox" />
   <project path="kernel/moto/shamu" name="CleanAOSP-O/kernel_moto_shamu" remote="gh" revision="8.1" />
   <project path="packages/apps/Launcher3" name="camcory/platform_packages_apps_Launcher3" remote="gh" revision="Ox" />
-  <project path="packages/inputmethods/LatinIME" name="camcory/android_packages_inputmethods_LatinIME" remote="gh" revision="Ox" />
   <project path="vendor/caosp" name="CleanAosp-O/platform_vendor_caosp" remote="gh" revision="8.1" />
   <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="gh" revision="O" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" clone-depth="1" remote="bb" revision="master"/>
