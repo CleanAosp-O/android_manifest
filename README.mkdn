@@ -1,4 +1,5 @@
 WIP TESTING ONLY. BUILDS AND RUN. USE WITH CAUTION. MAY DRINK ALL YOUR COFFEE
 
-repo init -u https://github.com/CleanAosp-O/android_manifest.git -b 8.1 
-repo sync -f --force-sync --no-tags --no-clone-bundle
+$ repo init -u https://github.com/CleanAosp-O/android_manifest.git -b 8.1 
+
+$ repo sync -f --force-sync --no-tags --no-clone-bundle
