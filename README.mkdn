@@ -2,6 +2,14 @@ WIP TESTING ONLY. BUILDS AND RUN. USE WITH CAUTION. MAY DRINK ALL YOUR COFFEE
 
 CleanAOSP Android Oreo 8.1.x for Nexus 6 [shamu]
 
-$ mkdir caosp && cd caosp
-$ repo init -u https://github.com/CleanAosp-O/android_manifest.git -b master
-$ repo sync -f --force-sync --no-tags --no-clone-bundle
+   $ mkdir caosp && cd caosp                 (Create a build directory and enter it)                                                                                                       
+
+   $ repo init -u https://github.com/CleanAosp-O/android_manifest.git -b master
+
+   $ repo sync -f --force-sync --no-tags --no-clone-bundle
+   
+   $ . build/envsetup.sh
+   
+   $ lunch (choose option 3)
+   
+   $ make bacon
