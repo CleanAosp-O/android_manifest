@@ -11,3 +11,4 @@ Creating the build directory, initializing CleanAOSP manifest, downloading sourc
       user@linux ~/caosp $ make bacon
 
 ----
+Gapps at: https://basketbuild.com/filedl/devs?dev=joryb&dl=joryb/open_gapps-cleanaosp-arm-8.1-nano-20180120.zip
