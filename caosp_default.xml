@@ -69,6 +69,6 @@
   <project path="vendor/caosp" name="platform_vendor_caosp" remote="clean" />
   <project path="vendor/moto" name="proprietary_vendor_motorola" remote="clean" />
   <project path="vendor/google" name="vendor_google" remote="clean" />
-
+  <project path="vendor/pixelgapps" name="DirtyUnicorns/android_vendor_pixelgapps" remote="gb" revision="o8x" />
 
 </manifest>
