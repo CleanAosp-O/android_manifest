@@ -34,7 +34,7 @@
 
   <!-- Device -->
   <project path="device/moto/shamu" name="device_shamu" remote="clean" />
-  <project path="device/google/wahoo" name="_android_device_google_wahoo" remote="clean" />
+  <project path="device/google/wahoo" name="android_device_google_wahoo" remote="clean" />
   <project path="device/google/taimen" name="android_device_google_taimen" remote="clean" />
   
   <!-- External -->
