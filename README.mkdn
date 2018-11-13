@@ -1,5 +1,5 @@
 # CleanAOSP 
-  ## Android Oreo 8.1.x for Nexus 6 [shamu] 
+  ## Android Oreo 8.1.x for Nexus 6P [Angler] DO NOT USE NOT READY 
 ----
 Creating the build directory, initializing CleanAOSP manifest, downloading source and building :
 
